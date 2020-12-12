@@ -1,5 +1,5 @@
 # functioningWebsite
-I will be creating a fully functioning website that will consist of html css and javascript.
+I will be creating a fully functioning website that will consist of html css and javascript. This will be done through using bootstrap
 
 To do list:
 1 -> create a html and css navigation panal
