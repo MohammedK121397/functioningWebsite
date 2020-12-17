@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 5em;
+}
+
+header {
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  flex: 2;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/*    navigation bar text colour*/
+a{
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  width: 80%;
+  list-style: none;
+
+}
+
+
+
+/* media quries to fix the sizing of the navigation when increasing/ decreasing window height. e.g. from laptop to mobile view   (need to fix)*/
+@media screen and (max-width: 1024px){
+  .nav-link {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px){
+  header{
+    display: none;
+
+  }
+}
